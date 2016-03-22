@@ -1,19 +1,4 @@
-﻿/*=============================================================
-    Authour URL: www.designbootstrap.com
-    
-    http://www.designbootstrap.com/
-
-    License: MIT
-
-    http://opensource.org/licenses/MIT
-
-    100% Free To use For Personal And Commercial Use.
-
-    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
-========================================================  */
-
-
+﻿
 /* =============================================================
 GOOGLE FONT
 ============================================================ */
@@ -175,7 +160,7 @@ border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 margin-bottom: 40px;
-background-color: rgba(255, 255, 255, 0.07);
+background-color: rgba(255, 255, 255, 0.45);
 cursor: pointer;
 -webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -184,7 +169,7 @@ transition: all 0.5s ease-in-out;
 }
 
 #services .services-wrapper:hover {
-background-color: rgba(255, 255, 255, 0.20);
+background-color: rgba(255, 255, 255, 0.60);
 }
 
 #services h3 {
@@ -207,7 +192,7 @@ margin-bottom: 30px;
 margin-top: 50px;
 text-align: center;
 box-shadow: 0 0 5px rgba(0, 0, 0, .5);
-background-color: rgba(255, 255, 255, 0.1);
+background-color: rgba(255, 255, 255, 0.45);
 color: #fff;
 line-height: 30px;
 cursor: pointer;
@@ -218,7 +203,7 @@ transition: all 0.5s ease-in-out;
 }
 
 .light-pricing:hover {
-background-color: transparent;
+background-color: rgba(255, 255, 255, 0.70);
 }
 
 .light-pricing ul {
@@ -305,7 +290,7 @@ border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 margin-bottom: 40px;
-background-color: rgba(255, 255, 255, 0.1);
+background-color: rgba(255, 255, 255, 0.45);
 cursor: pointer;
 -webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -413,7 +398,7 @@ CONTACT SECTION STYLES
 ==============================*/
 
 #contact .contact-wrapper {
-background-color:rgba(255, 255, 255, 0.1);
+background-color:rgba(255, 255, 255, 0.45);
 padding: 20px;
 border-radius: 5px;
 -moz-border-radius: 5px;
