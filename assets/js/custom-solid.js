@@ -1,18 +1,3 @@
-/*=============================================================
-    Authour URL: www.designbootstrap.com
-    
-    http://www.designbootstrap.com/
-
-    License: MIT
-
-    http://opensource.org/licenses/MIT
-
-    100% Free To use For Personal And Commercial Use.
-
-    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
-========================================================  */
-
 $(document).ready(function () {
 
 /*====================================
@@ -34,7 +19,7 @@ SLIDER SCRIPTS
 
 
 $('#carousel-slider').carousel({
-interval: 2000 //TIME IN MILLI SECONDS
+interval: 30000 //TIME IN MILLI SECONDS
 });
 
 
@@ -60,7 +45,7 @@ var $container = $('#work-div');
 $container.isotope({
 filter: '*',
 animationOptions: {
-duration: 750,
+duration: 950,
 easing: 'linear',
 queue: false
 }
@@ -72,7 +57,7 @@ var selector = $(this).attr('data-filter');
 $container.isotope({
 filter: selector,
 animationOptions: {
-duration: 750,
+duration: 950,
 easing: 'linear',
 queue: false
 }

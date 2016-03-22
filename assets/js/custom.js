@@ -1,17 +1,3 @@
-/*=============================================================
-    Authour URL: www.designbootstrap.com
-    
-    http://www.designbootstrap.com/
-
-    License: MIT
-
-    http://opensource.org/licenses/MIT
-
-    100% Free To use For Personal And Commercial Use.
-
-    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
-========================================================  */
 
 $(document).ready(function () {
 
@@ -34,7 +20,7 @@ SLIDER SCRIPTS
 
 
 $('#carousel-slider').carousel({
-interval: 2000 //TIME IN MILLI SECONDS
+interval: 60000 //TIME IN MILLI SECONDS
 });
 
 
@@ -43,8 +29,11 @@ VAGAS SLIDESHOW SCRIPTS
 ======================================*/
 $.vegas('slideshow', {
 backgrounds: [
-{ src: 'assets/img/1.jpg', fade: 1000, delay: 9000 },
-{ src: 'assets/img/2.jpg', fade: 1000, delay: 9000 },
+{ src: 'assets/img/1.jpg', fade: 1000, delay: 60000 },
+{ src: 'assets/img/2.jpg', fade: 1000, delay: 20000 },
+{ src: 'assets/img/3.jpg', fade: 1000, delay: 30000 },
+{ src: 'assets/img/4.jpg', fade: 1000, delay: 40000 },
+{ src: 'assets/img/5.jpg', fade: 1000, delay: 50000 },
 ]
 })('overlay', {
 /** SLIDESHOW OVERLAY IMAGE **/
@@ -74,7 +63,7 @@ var $container = $('#work-div');
 $container.isotope({
 filter: '*',
 animationOptions: {
-duration: 750,
+duration: 1050,
 easing: 'linear',
 queue: false
 }
@@ -86,7 +75,7 @@ var selector = $(this).attr('data-filter');
 $container.isotope({
 filter: selector,
 animationOptions: {
-duration: 750,
+duration: 1050,
 easing: 'linear',
 queue: false
 }
